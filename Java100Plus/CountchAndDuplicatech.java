@@ -21,7 +21,7 @@ public class CountchAndDuplicatech {
                 }
 
             }
-           System.out.println (chars[i] + " ki count: " + count);//total chr kitni bar aur
+           System.out.println (chars[i] + " ki count: " +count);//total chr kitni bar aur
             //ye count
 //            if (count>1){
 //                System.out.println( "Duplicate "+chars[i]+" count-> "+count );
