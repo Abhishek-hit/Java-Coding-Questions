@@ -2,16 +2,20 @@ package Java100Plus;
 
 public class armstrom {
     public static void main(String[] args) {
-        int num=1535,rem,sum=0,numbs=num;
-        while (num>0){
-            rem=num%10;
-            sum=sum+(rem*rem*rem);
-            num=num/10;
+        int  rem;
 
+        for (int i = 1; i <= 1000; i++) {
+            int sum = 0;      // Har naye 'i' ke liye sum zero se shuru hoga
+            int num = i;
+            while (num > 0) {
+                rem = num % 10;
+                sum = sum + (rem * rem * rem);
+                num = num / 10;
+
+            }
+            if (sum == i) {
+                System.out.println ("number is arms " + i);
+            }
         }
-        if (sum==numbs){
-        System.out.println ("number is arms "  + numbs );
 
-    }else System.out.println ("number is not arms" );
-    }
-}
+    }}
