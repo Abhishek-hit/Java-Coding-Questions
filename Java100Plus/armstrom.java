@@ -14,7 +14,7 @@ public class armstrom {
 
             }
             if (sum == i) {
-                System.out.println ("number is arms " + i);
+                System.out.print (" "+i);
             }
         }
 
