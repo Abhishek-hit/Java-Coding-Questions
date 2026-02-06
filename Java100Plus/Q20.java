@@ -15,7 +15,7 @@ public class Q20 {
         while (count<N){
             boolean isprime=true;
             for (int i=2;i<=Math.sqrt (number);i++){
-                if (number%2==0){
+                if (number%i==0){
                     isprime=false;
                     break;
                 }
