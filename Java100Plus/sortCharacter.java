@@ -10,8 +10,10 @@ public class sortCharacter {
         // 1. Arrays.sort() sirf array ko modify karta hai.
         Arrays.sort(data);
 
-        // 2. Output ke liye naya String object banao:
-        System.out.print(new String(data));
+        // 2. Output ke liye naya String object banao:to
+       // String st=data.toString ();
+    //   System.out.print(new String(data));
+        System.out.println (data );
 
     }
 }
