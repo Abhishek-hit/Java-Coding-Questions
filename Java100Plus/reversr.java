@@ -19,7 +19,7 @@ public class reversr {
 
     public static void main(String[] args) {
         System.out.println (  reversString ("hello") );
-        String n="acdfdlkjkd";
+
 
 
 
