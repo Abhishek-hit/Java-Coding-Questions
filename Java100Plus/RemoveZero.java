@@ -10,7 +10,7 @@ public class RemoveZero {
             // String ko Integer mein badlo
             int number=Integer.parseInt (input);
 
-            //wapas int ko sptring me badala
+            //wapas int ko string me badala
             return String.valueOf (number);
         }catch (NumberFormatException e) {
             // Agar input valid number nahi hai
@@ -18,7 +18,7 @@ public class RemoveZero {
         }
     }
     public static void main(String[] args) {
-        String input = "000123";
+        String input = "00070909023";
         System.out.println("Output (Conversion): " + removeZerosByConversion(input));
     }
 }
