@@ -27,12 +27,12 @@ public class countduplicatword {
             }
 
             // Agar aapko sirf Duplicate chahiye (count > 1), to if laga de
-            if(count > 1) {
-                System.out.println(s[i] + " ki count: " + count);
-            }
+//            if(count >1) {
+//                System.out.println(s[i] + " ki count: " + count);
+//            }
 
             // Agar sabki frequency chahiye to ye line use kare:
-            // System.out.println(s[i] + " ki count: " + count);
+             System.out.println(s[i] + " ki count: " + count);
         }
     }
 }
