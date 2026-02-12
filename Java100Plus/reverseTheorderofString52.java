@@ -20,6 +20,7 @@ public class reverseTheorderofString52 {
                 rev.append(" ");
             }
         }
+        System.out.println (rev );
         // Final reversed string print karein
 
 
