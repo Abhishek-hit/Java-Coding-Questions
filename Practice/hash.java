@@ -30,13 +30,13 @@ public class hash {
         if (data.containsValue (vales)){
             System.out.println (vales+"is avialable" );
         }else
-            System.out.println ("not avialable" );
+            System.out.println ("not avialabl" );
 
         // default ka use krna
         int def=data.getOrDefault ("ram",0);
         System.out.println (def );
 
-        //loop ke liye
+        //loop ke liye only in key
         for (String k:data.keySet ()){
             System.out.println ("all the key :- "+k );
         }
