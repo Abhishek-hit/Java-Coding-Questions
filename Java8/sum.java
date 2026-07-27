@@ -13,7 +13,7 @@ public class sum {
             return total;
         };
         System.out.println (Myinterface.add(10) );
-        int result = Myinterface.add (5);
+        int result = Myinterface.add (5); 
         System.out.println("Sum of 5 is: " + result);
     }
 }
