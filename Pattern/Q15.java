@@ -11,6 +11,6 @@ public class Q15 {
                 System.out.print (j+" " );
             }
             System.out.println ( );
-        }
+        } 
     }
 }
