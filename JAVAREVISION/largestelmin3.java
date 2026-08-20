@@ -17,7 +17,9 @@ public class largestelmin3 {
 //            } else if (c>=a&&c>=b) {
 //                System.out.println ("largest number is c"+c );
 //            }
-        int largest=Math.max (a,Math.max (b,c));
-        System.out.println ("largest"+largest );
+//        int largest=Math.max (a,Math.max (b,c));
+//        System.out.println ("largest"+largest );
+        int data=(a>b)?((a>c)? a:c):((b>c)? b:c);
+        System.out.println (data );
     }
 }
