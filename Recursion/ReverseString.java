@@ -16,6 +16,9 @@ public class ReverseString {
       System.out.println ("enter a string");
       String str=sc.nextLine ();
       System.out.println (rev(str,0) );
+      if (str.equals (rev (str,0))){
+          System.out.println ("palindoem" );
+      }else System.out.println ("not" );
 
 
 //        String str="hello world";
