@@ -1,13 +1,47 @@
-public class charcount {
+//public class charcount {
+//    public static void main(String[] args) {
+//        String ch="hello my dear frieds";
+//        int count=1;
+//        for (int i=0;i<ch.length ();i++){
+//            if ((ch.charAt(i) == ' ') && (ch.charAt(i + 1) != ' ')){
+//                count++;
+//            }
+//
+//        }
+//        System.out.println (count );
+//    }
+//}
+public class countduplicateWord {
     public static void main(String[] args) {
-        String ch="hello my dear frieds";
-        int count=1;
-        for (int i=0;i<ch.length ();i++){
-            if ((ch.charAt(i) == ' ') && (ch.charAt(i + 1) != ' ')){
-                count++;
+        String str = "Java is a programming language and Java is popular";
+        str = str.toLowerCase();
+
+        String[] words = str.split(" ");
+        int count;
+        int duplicateCount = 0;
+
+        System.out.println("Duplicate Words:");
+
+        for (int i = 0; i < words.length; i++) {
+            count = 1;
+
+            if (words[i].equals("0"))  // skip already counted words
+                continue;
+
+            for (int j = i + 1; j < words.length; j++) {
+                if (words[i].equals(words[j])) {
+                    count++;
+                    words[j] = "0"; // mark visited duplicate
+                }
             }
 
+            if (count > 1) {
+                System.out.println(words[i] + " → " + count);
+                duplicateCount++;
+            }
         }
-        System.out.println (count );
+
+        System.out.println("Total duplicate words = " + duplicateCount);
     }
 }
+
